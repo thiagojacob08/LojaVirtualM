@@ -1,0 +1,11 @@
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\bin\Debug\net9.0\DesafioBackend.Domain.deps.json
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\bin\Debug\net9.0\DesafioBackend.Domain.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\bin\Debug\net9.0\DesafioBackend.Domain.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\obj\Debug\net9.0\DesafioBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\obj\Debug\net9.0\DesafioBackend.Domain.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\obj\Debug\net9.0\DesafioBackend.Domain.AssemblyInfo.cs
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\obj\Debug\net9.0\DesafioBackend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\obj\Debug\net9.0\DesafioBackend.Domain.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\obj\Debug\net9.0\refint\DesafioBackend.Domain.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\obj\Debug\net9.0\DesafioBackend.Domain.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Domain\obj\Debug\net9.0\ref\DesafioBackend.Domain.dll

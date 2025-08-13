@@ -1,0 +1,17 @@
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\bin\Debug\net9.0\DesafioBackend.Infrastructure.deps.json
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\bin\Debug\net9.0\DesafioBackend.Infrastructure.runtimeconfig.json
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\bin\Debug\net9.0\DesafioBackend.Infrastructure.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\bin\Debug\net9.0\DesafioBackend.Infrastructure.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\bin\Debug\net9.0\DesafioBackend.Domain.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\bin\Debug\net9.0\DesafioBackend.Domain.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.AssemblyInfo.cs
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioB.7935349F.Up2Date
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\refint\DesafioBackend.Infrastructure.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.genruntimeconfig.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\ref\DesafioBackend.Infrastructure.dll

@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: desafio_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: desafio_backend
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - desafio_net
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: desafio_rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672" # painel de gerenciamento
+    networks:
+      - desafio_net
+
+networks:
+  desafio_net:
+
+volumes:
+  postgres_data:

@@ -1,0 +1,17 @@
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\bin\Debug\net9.0\DesafioBackend.Application.deps.json
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\bin\Debug\net9.0\DesafioBackend.Application.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\bin\Debug\net9.0\DesafioBackend.Application.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\bin\Debug\net9.0\DesafioBackend.Domain.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\bin\Debug\net9.0\DesafioBackend.Infrastructure.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\bin\Debug\net9.0\DesafioBackend.Domain.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\bin\Debug\net9.0\DesafioBackend.Infrastructure.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\DesafioBackend.Application.csproj.AssemblyReference.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\DesafioBackend.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\DesafioBackend.Application.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\DesafioBackend.Application.AssemblyInfo.cs
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\DesafioBackend.Application.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\DesafioB.7F0079CD.Up2Date
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\DesafioBackend.Application.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\refint\DesafioBackend.Application.dll
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\DesafioBackend.Application.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Application\obj\Debug\net9.0\ref\DesafioBackend.Application.dll
