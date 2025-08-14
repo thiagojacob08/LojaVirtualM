@@ -729,10 +729,13 @@
       },
       "DesafioBackend.Infrastructure/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "DesafioBackend.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.OpenApi": "1.6.23",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
-          "RabbitMQ.Client": "7.1.2"
+          "RabbitMQ.Client": "7.1.2",
+          "Swashbuckle.AspNetCore.SwaggerGen": "9.0.3"
         },
         "runtime": {
           "DesafioBackend.Infrastructure.dll": {

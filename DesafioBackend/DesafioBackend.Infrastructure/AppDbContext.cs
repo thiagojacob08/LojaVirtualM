@@ -1,5 +1,8 @@
 ﻿using DesafioBackend.Domain;
+using DesafioBackend.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+
+namespace DesafioBackend.Infrastructure;
 
 public class AppDbContext : DbContext
 {

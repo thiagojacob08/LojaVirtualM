@@ -9,6 +9,7 @@ C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastru
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.AssemblyInfo.cs
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.sourcelink.json
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioB.7935349F.Up2Date
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\DesafioBackend.Infrastructure.dll
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.Infrastructure\obj\Debug\net9.0\refint\DesafioBackend.Infrastructure.dll

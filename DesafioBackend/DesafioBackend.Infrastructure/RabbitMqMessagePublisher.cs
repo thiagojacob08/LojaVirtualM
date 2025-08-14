@@ -1,48 +1,52 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using System.Text;
 using System.Text.Json;
 
 namespace DesafioBackend.Infrastructure;
 
-public class RabbitMqMessagePublisher : IMessagePublisher, IDisposable
+public class RabbitMqMessagePublisher : IMessagePublisher, IAsyncDisposable
 {
-    private readonly IConnection _connection;
-    private readonly IModel _channel;
+    private IConnection _connection;
+    private IChannel _channel;
 
-    public RabbitMqMessagePublisher(string hostname = "localhost")
+    public async Task InitializeAsync(string hostname = "localhost")
     {
-        var factory = new ConnectionFactory() { HostName = hostname };
-        // Aqui vamos aguardar a criação assíncrona da conexão
-        _connection = factory.CreateConnectionAsync().GetAwaiter().GetResult();
-        // Também para o canal
-        _channel = _connection.CreateModelAsync().GetAwaiter().GetResult();
+        var factory = new ConnectionFactory
+        {
+            HostName = hostname
+        };
+
+        _connection = await factory.CreateConnectionAsync();
+        _channel = await _connection.CreateChannelAsync();
     }
 
-    public Task PublishAsync(string routingKey, object message)
+    public async Task PublishAsync(string routingKey, object message)
     {
         var json = JsonSerializer.Serialize(message);
         var body = Encoding.UTF8.GetBytes(json);
 
-        _channel.QueueDeclare(queue: routingKey,
-                              durable: false,
-                              exclusive: false,
-                              autoDelete: false,
-                              arguments: null);
+        await _channel.QueueDeclareAsync(
+            queue: routingKey,
+            durable: false,
+            exclusive: false,
+            autoDelete: false,
+            arguments: null
+        );
 
-        _channel.BasicPublish(exchange: "",
-                              routingKey: routingKey,
-                              basicProperties: null,
-                              body: body);
-
-        return Task.CompletedTask;
+        await _channel.BasicPublishAsync(
+            exchange: "",
+            routingKey: routingKey,
+            mandatory: false,
+            body: body
+        );
     }
 
-    public void Dispose()
+    public async ValueTask DisposeAsync()
     {
-        _channel?.Close();
-        _connection?.Close();
+        if (_channel != null)
+            await _channel.CloseAsync();
+
+        if (_connection != null)
+            await _connection.CloseAsync();
     }
 }
-
-
