@@ -3,68 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\controller\\entregadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\controller\\entregadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.infrastructure\\fileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|solutionrelative:desafiobackend.infrastructure\\fileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\controller\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\controller\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\controller\\locacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\controller\\locacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.domain\\entities\\locacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|solutionrelative:desafiobackend.domain\\entities\\locacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\controller\\entregadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\controller\\entregadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.domain\\entities\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|solutionrelative:desafiobackend.domain\\entities\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.domain\\dto\\locacaoreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|solutionrelative:desafiobackend.domain\\dto\\locacaoreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.domain\\entities\\entregador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|solutionrelative:desafiobackend.domain\\entities\\entregador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.infrastructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|solutionrelative:desafiobackend.infrastructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.domain\\dto\\locacaoupdatedevolucaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|solutionrelative:desafiobackend.domain\\dto\\locacaoupdatedevolucaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.domain\\dto\\locacaocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|solutionrelative:desafiobackend.domain\\dto\\locacaocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.domain\\dto\\entregadorreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|solutionrelative:desafiobackend.domain\\dto\\entregadorreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.domain\\dto\\entregadorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3934D77-B03C-40F2-88B1-ADA75160075E}|DesafioBackend.Domain\\DesafioBackend.Domain.csproj|solutionrelative:desafiobackend.domain\\dto\\entregadorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|solutionrelative:desafiobackend.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\controller\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\controller\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,210 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileUploadOperation.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\FileUploadOperation.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Infrastructure\\FileUploadOperation.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\FileUploadOperation.cs",
-              "RelativeToolTip": "DesafioBackend.Infrastructure\\FileUploadOperation.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wB8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T00:58:09.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "DesafioBackend.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "DesafioBackend.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-14T00:15:44.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Locacao.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\Entities\\Locacao.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Domain\\Entities\\Locacao.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\Entities\\Locacao.cs",
-              "RelativeToolTip": "DesafioBackend.Domain\\Entities\\Locacao.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:45:58.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LocacaoReadDTO.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\LocacaoReadDTO.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Domain\\DTO\\LocacaoReadDTO.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\LocacaoReadDTO.cs",
-              "RelativeToolTip": "DesafioBackend.Domain\\DTO\\LocacaoReadDTO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:44:31.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EntregadorController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\EntregadorController.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.API\\Controller\\EntregadorController.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\EntregadorController.cs",
-              "RelativeToolTip": "DesafioBackend.API\\Controller\\EntregadorController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAywEkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:38:13.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Program.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.API\\Program.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Program.cs",
-              "RelativeToolTip": "DesafioBackend.API\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAuwDoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T22:48:50.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MotoController.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\MotoController.cs",
               "RelativeDocumentMoniker": "DesafioBackend.API\\Controller\\MotoController.cs",
               "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\MotoController.cs",
               "RelativeToolTip": "DesafioBackend.API\\Controller\\MotoController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswA0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAmwCAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T22:58:01.902Z",
+              "WhenOpened": "2025-08-15T01:50:37.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "LocacaoController.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\LocacaoController.cs",
               "RelativeDocumentMoniker": "DesafioBackend.API\\Controller\\LocacaoController.cs",
               "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\LocacaoController.cs",
               "RelativeToolTip": "DesafioBackend.API\\Controller\\LocacaoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowCgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:52:03.029Z",
+              "WhenOpened": "2025-08-14T18:00:42.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Moto.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\Entities\\Moto.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Domain\\Entities\\Moto.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\Entities\\Moto.cs",
-              "RelativeToolTip": "DesafioBackend.Domain\\Entities\\Moto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EntregadorController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\EntregadorController.cs",
+              "RelativeDocumentMoniker": "DesafioBackend.API\\Controller\\EntregadorController.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\EntregadorController.cs",
+              "RelativeToolTip": "DesafioBackend.API\\Controller\\EntregadorController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACAAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T00:02:41.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Entregador.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\Entities\\Entregador.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Domain\\Entities\\Entregador.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\Entities\\Entregador.cs",
-              "RelativeToolTip": "DesafioBackend.Domain\\Entities\\Entregador.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:39:57.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LocacaoUpdateDevolucaoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\LocacaoUpdateDevolucaoDTO.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Domain\\DTO\\LocacaoUpdateDevolucaoDTO.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\LocacaoUpdateDevolucaoDTO.cs",
-              "RelativeToolTip": "DesafioBackend.Domain\\DTO\\LocacaoUpdateDevolucaoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:44:13.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Infrastructure\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\MappingProfile.cs",
-              "RelativeToolTip": "DesafioBackend.Infrastructure\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T22:33:26.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LocacaoCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\LocacaoCreateDTO.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Domain\\DTO\\LocacaoCreateDTO.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\LocacaoCreateDTO.cs",
-              "RelativeToolTip": "DesafioBackend.Domain\\DTO\\LocacaoCreateDTO.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwAkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:43:44.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EntregadorReadDTO.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\EntregadorReadDTO.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Domain\\DTO\\EntregadorReadDTO.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\EntregadorReadDTO.cs",
-              "RelativeToolTip": "DesafioBackend.Domain\\DTO\\EntregadorReadDTO.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:15:55.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EntregadorCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\EntregadorCreateDTO.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Domain\\DTO\\EntregadorCreateDTO.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Domain\\DTO\\EntregadorCreateDTO.cs",
-              "RelativeToolTip": "DesafioBackend.Domain\\DTO\\EntregadorCreateDTO.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T22:56:48.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Infrastructure\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\AppDbContext.cs",
-              "RelativeToolTip": "DesafioBackend.Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T22:59:29.023Z",
+              "WhenOpened": "2025-08-14T17:59:16.652Z",
               "EditorCaption": ""
             }
           ]

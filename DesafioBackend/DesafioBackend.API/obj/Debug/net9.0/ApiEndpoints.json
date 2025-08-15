@@ -50,45 +50,15 @@
   {
     "ContainingType": "DesafioBackend.API.Controller.EntregadorController",
     "Method": "UpdateFotoCNH",
-    "RelativePath": "entregadores/{id}/foto",
-    "HttpMethod": "PATCH",
+    "RelativePath": "entregadores/foto-cnh",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "dto",
+        "Type": "DesafioBackend.Domain.DTO.FotoCNHBase64Dto",
         "IsRequired": true
-      },
-      {
-        "Name": "ContentType",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ContentDisposition",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Headers",
-        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
-        "IsRequired": false
-      },
-      {
-        "Name": "Length",
-        "Type": "System.Int64",
-        "IsRequired": false
-      },
-      {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "FileName",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

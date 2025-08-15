@@ -1,12 +1,3 @@
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.csproj.AssemblyReference.cache
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.AssemblyInfoInputs.cache
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.AssemblyInfo.cs
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.csproj.CoreCompileInputs.cache
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.sourcelink.json
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\bin\Debug\net9.0\appsettings.json
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\bin\Debug\net9.0\DesafioBackend.API.staticwebassets.endpoints.json
@@ -127,6 +118,15 @@ C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\bin\D
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\bin\Debug\net9.0\DesafioBackend.Application.pdb
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\bin\Debug\net9.0\DesafioBackend.Domain.pdb
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\bin\Debug\net9.0\DesafioBackend.Infrastructure.pdb
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.csproj.AssemblyReference.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.AssemblyInfoInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.AssemblyInfo.cs
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.csproj.CoreCompileInputs.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.sourcelink.json
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -135,6 +135,7 @@ C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\D
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioB.C9AF5E29.Up2Date
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\DesafioBackend.API.dll
 C:\Users\thiag\source\repos\LojaVirtualM\DesafioBackend\DesafioBackend.API\obj\Debug\net9.0\refint\DesafioBackend.API.dll

@@ -13,7 +13,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     try
     {
-        options.UseNpgsql(builder.Configuration.GetConnectionString("Postgres"));
+        options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
     }
     catch (Exception ex)
     {
