@@ -1,0 +1,33 @@
+## Arquivos temporários do Visual Studio
+.vs/
+
+## Pastas de build
+bin/
+obj/
+
+## Configurações do usuário do VS
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Cache de pacotes
+*.nupkg
+packages/
+*.snupkg
+
+## Logs
+*.log
+
+## Arquivos de backup
+*.bak
+*.tmp
+
+## Publicação
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+## Configurações locais
+appsettings.Local.json
+appsettings.Development.json
