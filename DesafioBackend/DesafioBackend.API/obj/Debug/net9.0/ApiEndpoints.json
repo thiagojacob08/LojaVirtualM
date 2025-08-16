@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "DesafioBackend.API.Controller.EntregadorController",
+    "ContainingType": "EntregadorController",
     "Method": "CreateEntregador",
     "RelativePath": "entregadores",
     "HttpMethod": "POST",
@@ -16,7 +16,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DesafioBackend.API.Controller.EntregadorController",
+    "ContainingType": "EntregadorController",
     "Method": "GetEntregadores",
     "RelativePath": "entregadores",
     "HttpMethod": "GET",
@@ -32,7 +32,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DesafioBackend.API.Controller.EntregadorController",
+    "ContainingType": "EntregadorController",
     "Method": "GetEntregadorById",
     "RelativePath": "entregadores/{id}",
     "HttpMethod": "GET",
@@ -48,7 +48,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DesafioBackend.API.Controller.EntregadorController",
+    "ContainingType": "EntregadorController",
     "Method": "UpdateFotoCNH",
     "RelativePath": "entregadores/foto-cnh",
     "HttpMethod": "POST",

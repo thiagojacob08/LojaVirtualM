@@ -1,10 +1,6 @@
-﻿using AutoMapper;
-using DesafioBackend.Application.DTO;
-using DesafioBackend.Domain.DTO;
-using DesafioBackend.Domain.Entities;
-using DesafioBackend.Infrastructure;
+﻿using DesafioBackend.Application.DTO;
+using DesafioBackend.Application.Interface;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace DesafioBackend.API.Controller;
 
@@ -12,13 +8,11 @@ namespace DesafioBackend.API.Controller;
 [Route("locacoes")]
 public class LocacaoController : ControllerBase
 {
-    private readonly AppDbContext _dbContext;
-    private readonly IMapper _mapper;
+    private readonly ILocacaoService _locacaoService;
 
-    public LocacaoController(AppDbContext dbContext, IMapper mapper)
+    public LocacaoController(ILocacaoService locacaoService)
     {
-        _dbContext = dbContext;
-        _mapper = mapper;
+        _locacaoService = locacaoService;
     }
 
     [HttpPost]
@@ -26,30 +20,8 @@ public class LocacaoController : ControllerBase
     {
         try
         {
-            var entregador = await _dbContext.Entregadores.FindAsync(dto.EntregadorId);
-            if (entregador == null) return NotFound("Entregador não encontrado.");
-            if (!entregador.TipoCNH.Contains("A"))
-                return BadRequest("Entregador não habilitado para motos.");
-
-            var moto = await _dbContext.Motos.FindAsync(dto.MotoId);
-            if (moto == null) return NotFound("Moto não encontrada.");
-
-            bool motoJaLocada = await _dbContext.Locacoes.AnyAsync(l => l.MotoId == dto.MotoId && l.Ativa);
-            if (motoJaLocada)
-                return Conflict("Moto já está em locação ativa.");
-
-            var locacao = _mapper.Map<Locacao>(dto);
-            locacao.DataInicio = DateTime.SpecifyKind(DateTime.Today.AddDays(1), DateTimeKind.Utc);
-            locacao.DataFimPrevisto = DateTime.SpecifyKind(locacao.DataInicio.AddDays(dto.PlanoDias), DateTimeKind.Utc);
-            locacao.Ativa = true;
-            locacao.ValorDiaria = CalcularValorDiaria(dto.PlanoDias);
-            locacao.ValorTotal = locacao.ValorDiaria * dto.PlanoDias;
-
-            _dbContext.Locacoes.Add(locacao);
-            await _dbContext.SaveChangesAsync();
-
-            var readDto = _mapper.Map<LocacaoReadDTO>(locacao);
-            return CreatedAtAction(nameof(GetLocacaoById), new { id = locacao.Id }, readDto);
+            var locacaoDto = await _locacaoService.CriarLocacaoAsync(dto);
+            return CreatedAtAction(nameof(GetLocacaoById), new { id = locacaoDto.Id }, locacaoDto);
         }
         catch (Exception ex)
         {
@@ -62,11 +34,8 @@ public class LocacaoController : ControllerBase
     {
         try
         {
-            var locacao = await _dbContext.Locacoes.FindAsync(id);
-            if (locacao == null) return NotFound();
-
-            var readDto = _mapper.Map<LocacaoReadDTO>(locacao);
-            return Ok(readDto);
+            var locacao = await _locacaoService.GetLocacaoById(id);
+            return Ok(locacao);
         }
         catch (Exception ex)
         {
@@ -79,22 +48,16 @@ public class LocacaoController : ControllerBase
     {
         try
         {
-            var locacao = await _dbContext.Locacoes.FindAsync(id);
-            if (locacao == null) return NotFound();
-            if (!locacao.Ativa) return BadRequest("Locação já finalizada.");
-
-            locacao.DataFimReal = DateTime.Today;
-            locacao.Ativa = false;
-
-            VerificaMulta(locacao);
-
-            if (locacao.Multa > 0)
-                locacao.ValorTotal += locacao.Multa;
-
-            await _dbContext.SaveChangesAsync();
-
-            var readDto = _mapper.Map<LocacaoReadDTO>(locacao);
-            return Ok(readDto);
+            var locacaoReadDto = await _locacaoService.FinalizarLocacaoAsync(id);
+            return Ok(locacaoReadDto);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound();
+        }
+        catch (InvalidOperationException ex)
+        {
+            return BadRequest(ex.Message);
         }
         catch (Exception ex)
         {
@@ -102,28 +65,4 @@ public class LocacaoController : ControllerBase
         }
     }
 
-    private static void VerificaMulta(Locacao locacao)
-    {
-        if (locacao.DataFimReal > locacao.DataFimPrevisto)
-        {
-            int diasAtraso = (locacao.DataFimReal.Value - locacao.DataFimPrevisto).Days;
-            locacao.Multa = diasAtraso * locacao.ValorDiaria * 0.2m; // multa de 20% por dia
-        }
-        else if (locacao.DataFimReal < locacao.DataFimPrevisto)
-        {
-            int diasAntecipados = (locacao.DataFimPrevisto - locacao.DataFimReal.Value).Days;
-            locacao.Multa = diasAntecipados * locacao.ValorDiaria * 0.4m; // multa de 40% por dia
-        }
-    }
-
-    private decimal CalcularValorDiaria(int planoDias) =>
-        planoDias switch
-        {
-            7 => 30m,
-            15 => 28m,
-            30 => 22m,
-            45 => 20m,
-            50 => 18m,
-            _ => throw new ArgumentException("Plano inválido.")
-        };
 }

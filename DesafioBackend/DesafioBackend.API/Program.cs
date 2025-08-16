@@ -1,4 +1,6 @@
-﻿using DesafioBackend.Infrastructure;
+﻿using DesafioBackend.Application.Interface;
+using DesafioBackend.Application.Services;
+using DesafioBackend.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
 
@@ -39,6 +41,11 @@ builder.Services.AddSingleton<IMessagePublisher>(sp =>
 
 // Controllers
 builder.Services.AddControllers();
+
+// Services 
+builder.Services.AddScoped<ILocacaoService, LocacaoService>();
+builder.Services.AddScoped<IEntregadorService, EntregadorService>();
+builder.Services.AddScoped<IMotoService, MotoService>();
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));

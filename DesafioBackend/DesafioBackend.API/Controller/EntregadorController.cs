@@ -1,24 +1,16 @@
-﻿using AutoMapper;
-using DesafioBackend.Application.DTO;
+﻿using DesafioBackend.Application.DTO;
+using DesafioBackend.Application.Interface;
 using DesafioBackend.Domain.DTO;
-using DesafioBackend.Domain.Entities;
-using DesafioBackend.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
-namespace DesafioBackend.API.Controller;
-
-[ApiController]
 [Route("entregadores")]
 public class EntregadorController : ControllerBase
 {
-    private readonly AppDbContext _dbContext;
-    private readonly IMapper _mapper;
+    private readonly IEntregadorService _entregadorService;
 
-    public EntregadorController(AppDbContext dbContext, IMapper mapper)
+    public EntregadorController(IEntregadorService entregadorService)
     {
-        _dbContext = dbContext;
-        _mapper = mapper;
+        _entregadorService = entregadorService;
     }
 
     [HttpPost]
@@ -26,20 +18,12 @@ public class EntregadorController : ControllerBase
     {
         try
         {
-            if (await _dbContext.Entregadores.AnyAsync(e => e.CNPJ == dto.CNPJ || e.NumeroCNH == dto.NumeroCNH))
-                return Conflict(new { message = "CNPJ ou CNH já cadastrado." });
-
-            var entregador = _mapper.Map<Entregador>(dto);
-            entregador.DataNascimento = DateTime.SpecifyKind(dto.DataNascimento, DateTimeKind.Utc);
-            _dbContext.Entregadores.Add(entregador);
-            await _dbContext.SaveChangesAsync();
-
-            var readDto = _mapper.Map<EntregadorReadDTO>(entregador);
-            return CreatedAtAction(nameof(GetEntregadorById), new { id = entregador.Identificador }, readDto);
+            var readDto = await _entregadorService.CriarEntregadorAsync(dto);
+            return CreatedAtAction(nameof(GetEntregadorById), new { id = readDto.Identificador }, readDto);
         }
         catch (Exception ex)
         {
-            return StatusCode(500, new { message = "Erro ao cadastrar um entregador", details = ex.Message });
+            return StatusCode(500, new { message = ex.Message });
         }
     }
 
@@ -48,15 +32,16 @@ public class EntregadorController : ControllerBase
     {
         try
         {
-            var entregador = await _dbContext.Entregadores.FindAsync(id);
-            if (entregador == null) return NotFound();
-
-            var readDto = _mapper.Map<EntregadorReadDTO>(entregador);
+            var readDto = await _entregadorService.GetEntregadorByIdAsync(id);
             return Ok(readDto);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound();
         }
         catch (Exception ex)
         {
-            return StatusCode(500, new { message = $"Erro ao buscar o entregador: {id}.", details = ex.Message });
+            return StatusCode(500, new { message = ex.Message });
         }
     }
 
@@ -65,40 +50,30 @@ public class EntregadorController : ControllerBase
     {
         try
         {
-            var query = _dbContext.Entregadores.AsQueryable();
-            if (!string.IsNullOrWhiteSpace(nome))
-                query = query.Where(e => e.Nome.Contains(nome));
-
-            var readDtos = _mapper.Map<List<EntregadorReadDTO>>(await query.ToListAsync());
+            var readDtos = await _entregadorService.GetEntregadoresAsync(nome);
             return Ok(readDtos);
         }
         catch (Exception ex)
         {
-
-            return StatusCode(500, new { message = $"Erro ao buscar os entregadores.", details = ex.Message });
+            return StatusCode(500, new { message = ex.Message });
         }
     }
 
     [HttpPost("foto-cnh")]
-    public IActionResult UpdateFotoCNH([FromBody] FotoCNHBase64Dto dto)
+    public async Task<IActionResult> UpdateFotoCNH([FromBody] FotoCNHBase64Dto dto)
     {
-        if (string.IsNullOrEmpty(dto.ArquivoBase64))
-            return BadRequest("Arquivo não informado");
-
         try
         {
-            var bytes = Convert.FromBase64String(dto.ArquivoBase64);
-                        
-            var caminho = Path.Combine("Uploads", dto.NomeArquivo);
-            Directory.CreateDirectory(Path.GetDirectoryName(caminho));
-            System.IO.File.WriteAllBytes(caminho, bytes);
-
+            await _entregadorService.SalvarFotoCNHAsync(dto);
             return Ok($"Arquivo '{dto.NomeArquivo}' enviado com sucesso");
         }
         catch (FormatException)
         {
             return BadRequest("O arquivo enviado não está em formato Base64 válido");
         }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { message = ex.Message });
+        }
     }
-
 }
