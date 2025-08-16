@@ -3,6 +3,8 @@ using DesafioBackend.Application.DTO;
 using DesafioBackend.Domain.DTO;
 using DesafioBackend.Domain.Entities;
 
+namespace DesafioBackend.Infrastructure;
+
 public class MappingProfile : Profile
 {
     public MappingProfile()
@@ -12,6 +14,12 @@ public class MappingProfile : Profile
         CreateMap<Entregador, EntregadorReadDTO>();
         CreateMap<EntregadorCreateDTO, Entregador>();
         CreateMap<Locacao, LocacaoReadDTO>();
-        CreateMap<LocacaoCreateDTO, Locacao>();
+        CreateMap<LocacaoCreateDTO, Locacao>()
+            .ForMember(dest => dest.DataInicio, opt => opt.MapFrom(_ => DateTime.Today))
+            .ForMember(dest => dest.DataFimPrevisto, opt => opt.MapFrom(src => DateTime.Today.AddDays(src.PlanoDias)))
+            .ForMember(dest => dest.Ativa, opt => opt.MapFrom(_ => true))
+            .ForMember(dest => dest.Multa, opt => opt.MapFrom(_ => 0m))
+            .ForMember(dest => dest.ValorDiaria, opt => opt.Ignore())
+            .ForMember(dest => dest.ValorTotal, opt => opt.Ignore());
     }
 }

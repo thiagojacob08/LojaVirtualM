@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A291190E-2FB5-440A-AE71-24125E7EB14F}|DesafioBackend.Application\\DesafioBackend.Application.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.application\\services\\motoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A291190E-2FB5-440A-AE71-24125E7EB14F}|DesafioBackend.Application\\DesafioBackend.Application.csproj|solutionrelative:desafiobackend.application\\services\\motoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64046111-69F4-44CC-A93A-190FBEF7A4E8}|DesafioBackEnd.Tests\\DesafioBackEnd.Tests.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.tests\\controllers\\locacaocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64046111-69F4-44CC-A93A-190FBEF7A4E8}|DesafioBackEnd.Tests\\DesafioBackEnd.Tests.csproj|solutionrelative:desafiobackend.tests\\controllers\\locacaocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\controller\\locacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\controller\\locacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.infrastructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|solutionrelative:desafiobackend.infrastructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\controller\\entregadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\controller\\entregadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.infrastructure\\imessagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C67583-C152-4674-910C-C634B6516C41}|DesafioBackend.Infrastructure\\DesafioBackend.Infrastructure.csproj|solutionrelative:desafiobackend.infrastructure\\imessagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64046111-69F4-44CC-A93A-190FBEF7A4E8}|DesafioBackEnd.Tests\\DesafioBackEnd.Tests.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.tests\\services\\locacaoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64046111-69F4-44CC-A93A-190FBEF7A4E8}|DesafioBackEnd.Tests\\DesafioBackEnd.Tests.csproj|solutionrelative:desafiobackend.tests\\services\\locacaoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A291190E-2FB5-440A-AE71-24125E7EB14F}|DesafioBackend.Application\\DesafioBackend.Application.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.application\\interface\\imotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A291190E-2FB5-440A-AE71-24125E7EB14F}|DesafioBackend.Application\\DesafioBackend.Application.csproj|solutionrelative:desafiobackend.application\\interface\\imotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.api\\controller\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB9973D-358A-45D5-8C09-0F68BEF8E5D1}|DesafioBackend.API\\DesafioBackend.API.csproj|solutionrelative:desafiobackend.api\\controller\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A291190E-2FB5-440A-AE71-24125E7EB14F}|DesafioBackend.Application\\DesafioBackend.Application.csproj|c:\\users\\thiag\\source\\repos\\lojavirtualm\\desafiobackend\\desafiobackend.application\\services\\locacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A291190E-2FB5-440A-AE71-24125E7EB14F}|DesafioBackend.Application\\DesafioBackend.Application.csproj|solutionrelative:desafiobackend.application\\services\\locacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,80 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocacaoController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\LocacaoController.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.API\\Controller\\LocacaoController.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\LocacaoController.cs",
-              "RelativeToolTip": "DesafioBackend.API\\Controller\\LocacaoController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA3wAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IMessagePublisher.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\IMessagePublisher.cs",
+              "RelativeDocumentMoniker": "DesafioBackend.Infrastructure\\IMessagePublisher.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\IMessagePublisher.cs",
+              "RelativeToolTip": "DesafioBackend.Infrastructure\\IMessagePublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T19:36:42.037Z",
+              "WhenOpened": "2025-08-16T20:41:05.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EntregadorController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\EntregadorController.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.API\\Controller\\EntregadorController.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\EntregadorController.cs",
-              "RelativeToolTip": "DesafioBackend.API\\Controller\\EntregadorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "DesafioBackend.Infrastructure\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Infrastructure\\MappingProfile.cs",
+              "RelativeToolTip": "DesafioBackend.Infrastructure\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T19:36:20.551Z",
+              "WhenOpened": "2025-08-16T20:40:38.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MotoService.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Application\\Services\\MotoService.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Application\\Services\\MotoService.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Application\\Services\\MotoService.cs",
-              "RelativeToolTip": "DesafioBackend.Application\\Services\\MotoService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA0wE0AAAAZAAAAAAAAAA==",
+              "Title": "LocacaoControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackEnd.Tests\\Controllers\\LocacaoControllerTests.cs",
+              "RelativeDocumentMoniker": "DesafioBackEnd.Tests\\Controllers\\LocacaoControllerTests.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackEnd.Tests\\Controllers\\LocacaoControllerTests.cs",
+              "RelativeToolTip": "DesafioBackEnd.Tests\\Controllers\\LocacaoControllerTests.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA0wCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T19:21:18.536Z",
+              "WhenOpened": "2025-08-16T20:32:58.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IMotoService.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Application\\Interface\\IMotoService.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.Application\\Interface\\IMotoService.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Application\\Interface\\IMotoService.cs",
-              "RelativeToolTip": "DesafioBackend.Application\\Interface\\IMotoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "LocacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Application\\Services\\LocacaoService.cs",
+              "RelativeDocumentMoniker": "DesafioBackend.Application\\Services\\LocacaoService.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.Application\\Services\\LocacaoService.cs",
+              "RelativeToolTip": "DesafioBackend.Application\\Services\\LocacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T19:18:56.56Z",
+              "WhenOpened": "2025-08-16T20:19:43.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Program.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.API\\Program.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Program.cs",
-              "RelativeToolTip": "DesafioBackend.API\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
+              "Title": "LocacaoServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackEnd.Tests\\Services\\LocacaoServiceTests.cs",
+              "RelativeDocumentMoniker": "DesafioBackEnd.Tests\\Services\\LocacaoServiceTests.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackEnd.Tests\\Services\\LocacaoServiceTests.cs",
+              "RelativeToolTip": "DesafioBackEnd.Tests\\Services\\LocacaoServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:38:33.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MotoController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\MotoController.cs",
-              "RelativeDocumentMoniker": "DesafioBackend.API\\Controller\\MotoController.cs",
-              "ToolTip": "C:\\Users\\thiag\\source\\repos\\LojaVirtualM\\DesafioBackend\\DesafioBackend.API\\Controller\\MotoController.cs",
-              "RelativeToolTip": "DesafioBackend.API\\Controller\\MotoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:50:37.774Z",
+              "WhenOpened": "2025-08-16T20:16:49.024Z",
               "EditorCaption": ""
             }
           ]
